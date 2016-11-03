@@ -33,6 +33,10 @@ pepper_dcm:
     type: position_controllers/JointPositionController
     joint: LWristYaw
 
+  LGrasp_position_controller:
+    type: position_controllers/JointPositionController
+    joint: LGrasp
+
   LHand_position_controller:
     type: position_controllers/JointPositionController
     joint: LHand
@@ -56,6 +60,10 @@ pepper_dcm:
   RElbowRoll_position_controller:
     type: position_controllers/JointPositionController
     joint: RElbowRoll
+
+  RGrasp_position_controller:
+    type: position_controllers/JointPositionController
+    joint: RGrasp
 
   RHand_position_controller:
     type: position_controllers/JointPositionController
